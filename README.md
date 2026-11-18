@@ -1,4 +1,4 @@
-# EstateNest — Real Estate Property Platform
+<img width="1360" height="724" alt="image" src="https://github.com/user-attachments/assets/17ff845d-2ef4-43a9-b14f-2e40a191d7bd" /># EstateNest — Real Estate Property Platform
 
 A Laravel and MySQL real estate listings application with searchable property listings and an authenticated staff dashboard for managing properties.
 
@@ -25,17 +25,18 @@ The examples below were captured from the locally running application using fict
 
 | Homepage | Property listings |
 |---|---|
-| ![Homepage](screenshots/01-homepage.png) | ![Property listings](screenshots/02-property-listings.png) |
+| ![Homepage] <img width="1360" height="725" alt="image" src="https://github.com/user-attachments/assets/3eb86c4b-3d87-43e3-90fa-dce3b53ddf4d" />
+ | ![Property listings](https://github.com/Rabia-513/estatenest-property-platform/blob/main/screenshots/02-property-listings.PNG?raw=true) |
 
 | Property details | Staff dashboard |
 |---|---|
-| ![Property details](screenshots/03-property-details.png) | ![Staff dashboard](screenshots/04-admin-dashboard.png) |
+| ![Property details](https://github.com/Rabia-513/estatenest-property-platform/blob/main/screenshots/03-property-details.PNG?raw=true) | ![Staff dashboard](https://github.com/Rabia-513/estatenest-property-platform/blob/main/screenshots/04-admin-dashboard.PNG?raw=true) |
 
 | Search and filters | Updated property |
 |---|---|
-| ![Search and filters](screenshots/08-search-filters.png) | ![Property updated](screenshots/07-property-updated.png) |
+| ![Search and filters](https://github.com/Rabia-513/estatenest-property-platform/blob/main/screenshots/08-search-filters.PNG?raw=true) | ![Property updated](https://github.com/Rabia-513/estatenest-property-platform/blob/main/screenshots/07-property-updated.PNG?raw=true) |
 
-Additional evidence: [new property form](screenshots/05-add-property-form.png), [property created](screenshots/06-property-created.png), [property deleted](screenshots/09-property-deleted.png).
+
 
 ## Architecture
 
