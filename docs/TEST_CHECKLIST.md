@@ -1,0 +1,12 @@
+# Test checklist
+- [ ] Landing page loads at `/` with fictional sample properties
+- [ ] Search and filtering by location/type/price work
+- [ ] Property details page shows a listing
+- [ ] `/admin/properties` redirects to login when signed out
+- [ ] Admin signs in with private seeded credentials
+- [ ] Admin creates a property and sees it on public page
+- [ ] Admin edits and deletes a property
+- [ ] Invalid property price/address fails validation
+- [ ] Staff logout works
+- [ ] No `.env` or private credentials in git
+- [ ] Loom link added to root README

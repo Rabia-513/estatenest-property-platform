@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title><?php echo $__env->yieldContent('title','EstateNest'); ?> | EstateNest</title><link rel="stylesheet" href="<?php echo e(asset('css/estate.css')); ?>"></head>
+<body><header class="header"><div class="container nav"><a class="brand" href="<?php echo e(route('home')); ?>">⌂ <span>EstateNest</span></a><nav><a href="<?php echo e(route('home')); ?>">Explore homes</a><?php if(auth()->guard()->check()): ?><a href="<?php echo e(route('admin.properties.index')); ?>">Dashboard</a><form method="POST" action="<?php echo e(route('logout')); ?>"><?php echo csrf_field(); ?><button class="nav-link" type="submit">Sign out</button></form><?php else: ?><a href="<?php echo e(route('login')); ?>">Staff login</a><?php endif; ?></nav></div></header>
+<main class="container"><?php if(session('message')): ?><div class="alert good"><?php echo e(session('message')); ?></div><?php endif; ?> <?php echo $__env->yieldContent('content'); ?></main>
+<footer class="footer"><div class="container">EstateNest · Fictional real estate listings for internship demonstration · <?php echo e(date('Y')); ?></div></footer>
+</body></html>
+<?php /**PATH E:\think-ai-works-all-five-project-folders\05-taw-php-realestate-listings\resources\views/layouts/app.blade.php ENDPATH**/ ?>
